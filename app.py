@@ -60,7 +60,6 @@ def load_data():
 
     return df
 
-st.autorefresh(interval=300000, key="refresh")
 
 df = load_data()
 
